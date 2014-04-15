@@ -2,7 +2,7 @@ package: bower
 user: wakari
 
 platform:
-  # - linux-32
+  - linux-32
   - linux-64
   # - osx-64
 
@@ -15,6 +15,6 @@ engine:
   - python=2
 
 script:
-  - conda build . --no-test
+  - conda build .
 
 build_targets: conda
