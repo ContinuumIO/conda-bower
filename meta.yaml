@@ -1,0 +1,16 @@
+package:
+  name: bower
+  version: 1.1.2
+
+requirements:
+  build:
+    - nodejs
+  run:
+    - nodejs
+
+test:
+  commands:
+    - bower --version
+
+about:
+  home: http://bower.io/
