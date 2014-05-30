@@ -1,0 +1,11 @@
+package: nodejs
+user: wakari
+
+platform:
+  - linux-64
+  - osx-64
+
+script:
+  - conda build .
+
+build_targets: conda
