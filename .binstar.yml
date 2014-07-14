@@ -2,7 +2,7 @@ package: bower
 user: wakari
 
 platform:
-  - linux-32
+  # - linux-32
   - linux-64
   # - osx-64
 
