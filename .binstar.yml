@@ -3,7 +3,7 @@ user: javascript
 
 platform:
   - linux-64
-  #- osx-64
+  - osx-64
 
 script:
   - conda build .
