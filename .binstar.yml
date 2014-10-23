@@ -1,5 +1,5 @@
 package: nodejs
-user: wakari
+user: javascript
 
 platform:
   - linux-64
