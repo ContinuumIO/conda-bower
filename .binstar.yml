@@ -1,10 +1,10 @@
 package: bower
-user: wakari
+user: javascript
 
 platform:
   # - linux-32
   - linux-64
-  # - osx-64
+  - osx-64
 
 install:
   - sudo yum erase -q gcc gcc-c++
