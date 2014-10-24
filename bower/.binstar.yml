@@ -7,9 +7,7 @@ platform:
   - osx-64
 
 install:
-  - sudo yum erase -q gcc gcc-c++
-  - sudo yum install -q gcc gcc-c++
-  - conda config -f --add channels https://conda.binstar.org/wakari
+  - conda config -f --add channels https://conda.binstar.org/javascript
 
 engine:
   - python=2
