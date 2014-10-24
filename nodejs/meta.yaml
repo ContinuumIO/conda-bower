@@ -1,0 +1,27 @@
+package:
+  name: nodejs
+  version: 0.10.32
+
+build:
+  number: {{environ.get('BINSTAR_BUILD', 1)}}
+
+source:
+  fn: node-v0.10.32-linux-x64.tar.gz [linux64]
+  url: http://nodejs.org/dist/v0.10.32/node-v0.10.32-linux-x64.tar.gz [linux64]
+  # sha: fadefc15a992d21bd19d0d3ec174390d1e7fcb72
+  md5: 126ed002d88315b8d37cec1ee4915454 [linux64]
+
+  fn: node-v0.10.32-darwin-x64.tar.gz [osx]
+  url: http://nodejs.org/dist/v0.10.32/node-v0.10.32-darwin-x64.tar.gz [osx]
+  # sha: e2e1e876514ee33b2dd019c25dcb4bc7cdaff414 [osx]
+  md5: bd5a65196c2ebe33c0251f19c5321b52 [osx]
+
+test:
+  commands:
+    - node --help
+    - node --version
+    - npm --version
+
+about:
+  home: http://nodejs.org/
+  license: V8
